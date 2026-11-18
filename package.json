@@ -1,13 +1,15 @@
 {
   "name": "api-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "API Web feita com Typescript",
   "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fernando",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^18.0.10",
@@ -16,6 +18,8 @@
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.6",
+    "nodemo": "^1.0.0",
+    "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
   }
